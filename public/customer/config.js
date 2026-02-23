@@ -133,39 +133,6 @@ window.DASHBOARD_CONFIG = {
       "icon": "💬",
       "columnIndex": 5,
       "displayTemplate": "権利: {value}時間分"
-    },
-    {
-      "key": "1k",
-      "icon": "🖼️",
-      "columnIndex": 0,
-      "displayTemplate": "特典: {value}",
-      "isMembership": false
-    },
-    {
-      "key": "40k",
-      "icon": "⚡",
-      "columnIndex": 5,
-      "displayTemplate": "強制リクエスト: {value}曲"
-    },
-    {
-      "key": "50k",
-      "icon": "🏆",
-      "columnIndex": 6,
-      "displayTemplate": "ミックス音源獲得: {value}曲"
-    },
-    {
-      "key": "メンバーシップA",
-      "icon": "👑",
-      "columnIndex": 7,
-      "displayTemplate": "月内リクエスト対応中",
-      "isMembership": true
-    },
-    {
-      "key": "メンバーシップB",
-      "icon": "🌟",
-      "columnIndex": 0,
-      "displayTemplate": "特典: {value}",
-      "isMembership": true
     }
   ],
   "home": {
