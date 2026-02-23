@@ -3,24 +3,24 @@
 
 window.DASHBOARD_CONFIG = {
   "brand": {
-    "name": "鶴し台",
+    "name": "吊し台(推し特典ぺ)",
     "sidebarTitle": "　color sing",
     "footerText": "",
     "footerSubText": "",
     "footerNote": "",
     "pageTitle": "鶴し台 - 特典管理",
-    "loadingEmoji": "🐧",
+    "loadingEmoji": "🐧🐾🐾🐾",
     "loadingText": "Loading...",
     "showTitle": true,
-    "titleGradient": false,
-    "titleGradientDirection": "to-r"
+    "titleGradient": true,
+    "titleGradientDirection": "to-b"
   },
   "colors": {
-    "deepBlue": "#383838",
-    "oceanTeal": "#696969",
-    "lightBlue": "#cccccc",
-    "amber": "#fee901",
-    "accent": "#fee901",
+    "deepBlue": "#06080e",
+    "oceanTeal": "#0c1428",
+    "lightBlue": "#58c0e0",
+    "amber": "#c0b8f0",
+    "accent": "#4080d8",
     "gold": "#e8f4ff"
   },
   "colorOverrides": {
@@ -29,7 +29,7 @@ window.DASHBOARD_CONFIG = {
     "cardBorder": "",
     "cardBorderHover": "",
     "primaryText": "",
-    "accentText": "#b7b4bb",
+    "accentText": "",
     "rank1Card": "",
     "backgroundMain": "",
     "backgroundMid": "",
@@ -38,7 +38,7 @@ window.DASHBOARD_CONFIG = {
     "contentText": "",
     "titleColor": "",
     "glassBgColor": "#454d59",
-    "glassBgOpacity": 0.5
+    "glassBgOpacity": 0.8
   },
   "fonts": {
     "display": "'Hachi Maru Pop', cursive",
@@ -72,7 +72,7 @@ window.DASHBOARD_CONFIG = {
   "views": [
     {
       "id": "home",
-      "label": "ほーむ",
+      "label": "準備台",
       "icon": "🏠",
       "enabled": true
     },
@@ -174,11 +174,11 @@ window.DASHBOARD_CONFIG = {
   },
   "effects": {
     "iconFloat": true,
-    "particles": "none",
+    "particles": "bubble",
     "particleDirection": "up",
     "particleColor": "",
-    "particleSize": 0.5,
-    "particleOpacity": 1
+    "particleSize": 1,
+    "particleOpacity": 2
   },
   "deploy": {
     "owner": "colorsing-dashboard",
