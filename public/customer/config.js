@@ -216,6 +216,6 @@ window.DASHBOARD_CONFIG = {
   },
   "admin": {
     "password": "npepe",
-    "developerKey": "npepe"
+    "developerKey": "CSadmin"
   }
 }
