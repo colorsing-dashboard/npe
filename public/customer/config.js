@@ -24,8 +24,8 @@ window.DASHBOARD_CONFIG = {
     "gold": "#e8f4ff"
   },
   "colorOverrides": {
-    "headerGradientStart": "",
-    "headerGradientEnd": "",
+    "headerGradientStart": "#012f7b",
+    "headerGradientEnd": "#474747",
     "cardBorder": "",
     "cardBorderHover": "",
     "primaryText": "",
@@ -176,7 +176,7 @@ window.DASHBOARD_CONFIG = {
     "iconFloat": true,
     "particles": "bubble",
     "particleDirection": "up",
-    "particleColor": "",
+    "particleColor": "#ebebeb",
     "particleSize": 1,
     "particleOpacity": 2
   },
