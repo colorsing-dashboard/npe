@@ -10,7 +10,7 @@ window.DASHBOARD_CONFIG = {
     "footerNote": "",
     "pageTitle": "鶴し台 - 特典管理",
     "loadingEmoji": "🐧🐾🐾🐾",
-    "loadingText": "手配班呼び出し中...",
+    "loadingText": "手配犯呼び出し中...",
     "showTitle": true,
     "titleGradient": true,
     "titleGradientDirection": "to-b"
@@ -24,8 +24,8 @@ window.DASHBOARD_CONFIG = {
     "gold": "#e8f4ff"
   },
   "colorOverrides": {
-    "headerGradientStart": "#012f7b",
-    "headerGradientEnd": "#474747",
+    "headerGradientStart": "",
+    "headerGradientEnd": "",
     "cardBorder": "",
     "cardBorderHover": "",
     "primaryText": "",
@@ -41,7 +41,7 @@ window.DASHBOARD_CONFIG = {
     "glassBgOpacity": 0.8
   },
   "fonts": {
-    "display": "'Hachi Maru Pop', cursive",
+    "display": "'Poppins', sans-serif",
     "displayUrl": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap",
     "body": "'Hachi Maru Pop', cursive",
     "bodyUrl": "https://fonts.googleapis.com/css2?family=Hachi%20Maru%20Pop:wght@400&display=swap",
@@ -53,7 +53,7 @@ window.DASHBOARD_CONFIG = {
     "favicon": "./customer/vite.svg"
   },
   "sheets": {
-    "spreadsheetId": "1-HbWK_-RuNYTt5jHklwrM-LQMzSOttBa2Vb51L0C_GQ",
+    "spreadsheetId": "1kcbwCKJPBxK1m63xuvMs3-y7t0sBtv6TUA3SUYO5hsA",
     "rankingSheetName": "目標管理・ランキング",
     "benefitsSheetName": "特典管理",
     "benefitsContentSheetName": "特典内容",
@@ -176,7 +176,7 @@ window.DASHBOARD_CONFIG = {
     "iconFloat": true,
     "particles": "bubble",
     "particleDirection": "up",
-    "particleColor": "#ebebeb",
+    "particleColor": "",
     "particleSize": 1,
     "particleOpacity": 2
   },
