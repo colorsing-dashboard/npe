@@ -10,7 +10,7 @@ window.DASHBOARD_CONFIG = {
     "footerNote": "",
     "pageTitle": "鶴し台 - 特典管理",
     "loadingEmoji": "🐧🐾🐾🐾",
-    "loadingText": "Loading...",
+    "loadingText": "手配班呼び出し中...",
     "showTitle": true,
     "titleGradient": true,
     "titleGradientDirection": "to-b"
