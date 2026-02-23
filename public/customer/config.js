@@ -48,8 +48,8 @@ window.DASHBOARD_CONFIG = {
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
   },
   "images": {
-    "headerDesktop": "https://drive.google.com/file/d/1WdK5vVT12q3Ub-wcTtoHXefQ2R0FsPms/view?usp=drivesdk",
-    "headerMobile": "https://drive.google.com/file/d/1gTu88yJXJY35TKPBvEZ3C4nntfs7OZXx/view?usp=drivesdk",
+    "headerDesktop": "https://drive.google.com/file/d/1kLe0-LiGSvJPg70qFLEz9A2Dtvg9AOrk/view?usp=drivesdk",
+    "headerMobile": "https://drive.google.com/file/d/1lXSQZ00O3H5UOdqwjGDGTVQLGQxRNkCg/view?usp=drivesdk",
     "favicon": "./customer/vite.svg"
   },
   "sheets": {
