@@ -19,8 +19,8 @@ window.DASHBOARD_CONFIG = {
     "deepBlue": "#0f0f10",
     "oceanTeal": "#323334",
     "lightBlue": "#bdbdbd",
-    "amber": "#5b5a5e",
-    "accent": "#9bbbe8",
+    "amber": "#fee901",
+    "accent": "#fee901",
     "gold": "#e8f4ff"
   },
   "colorOverrides": {
@@ -29,14 +29,16 @@ window.DASHBOARD_CONFIG = {
     "cardBorder": "",
     "cardBorderHover": "",
     "primaryText": "",
-    "accentText": "#68666b",
+    "accentText": "#b7b4bb",
     "rank1Card": "",
     "backgroundMain": "",
     "backgroundMid": "",
     "nameText": "",
     "footerText": "",
     "contentText": "",
-    "titleColor": ""
+    "titleColor": "",
+    "glassBgColor": "#3d4552",
+    "glassBgOpacity": 0.6
   },
   "fonts": {
     "display": "'Hachi Maru Pop', cursive",
@@ -51,7 +53,7 @@ window.DASHBOARD_CONFIG = {
     "favicon": "./customer/vite.svg"
   },
   "sheets": {
-    "spreadsheetId": "1lU49dwSPRysdFA2Fg6iofJnk7vaXLU1jJ6sUkCoN5zk",
+    "spreadsheetId": "1-HbWK_-RuNYTt5jHklwrM-LQMzSOttBa2Vb51L0C_GQ",
     "rankingSheetName": "目標管理・ランキング",
     "benefitsSheetName": "特典管理",
     "benefitsContentSheetName": "特典内容",
@@ -70,63 +72,74 @@ window.DASHBOARD_CONFIG = {
   "views": [
     {
       "id": "home",
-      "label": "Home",
+      "label": "ほーむ",
       "icon": "🏠",
       "enabled": true
     },
     {
       "id": "menu",
-      "label": "Menu",
-      "icon": "🍸",
-      "enabled": true
+      "label": "刑罰",
+      "icon": "🎭",
+      "enabled": true,
+      "title": "刑罰"
     },
     {
       "id": "rights",
-      "label": "ボトルキープ",
+      "label": "罪人",
       "icon": "👥",
       "enabled": true,
-      "title": "ボトルキープ一覧"
+      "title": "罪人"
     },
     {
       "id": "icons",
-      "label": "枠内アイコン",
+      "label": "手配写真",
       "icon": "🖼️",
       "enabled": true,
-      "title": "枠内アイコン"
+      "title": "手配写真"
     }
   ],
   "benefitTiers": [
+    {
+      "key": "3k",
+      "icon": "🖼️",
+      "columnIndex": 1,
+      "displayTemplate": "獲得済！",
+      "isMembership": false,
+      "isBoolean": true
+    },
+    {
+      "key": "5k",
+      "icon": "🔒",
+      "columnIndex": 2,
+      "displayTemplate": "獲得済！",
+      "isBoolean": true
+    },
+    {
+      "key": "10k",
+      "icon": "🎭",
+      "columnIndex": 3,
+      "displayTemplate": "獲得済！",
+      "isBoolean": true
+    },
+    {
+      "key": "20k",
+      "icon": "🎧",
+      "columnIndex": 4,
+      "displayTemplate": "権利: {value}曲分",
+      "isBoolean": false
+    },
+    {
+      "key": "30k",
+      "icon": "💬",
+      "columnIndex": 5,
+      "displayTemplate": "権利: {value}時間分"
+    },
     {
       "key": "1k",
       "icon": "🖼️",
       "columnIndex": 0,
       "displayTemplate": "特典: {value}",
       "isMembership": false
-    },
-    {
-      "key": "5k",
-      "icon": "🎵",
-      "columnIndex": 1,
-      "displayTemplate": "強制リクエスト: {value}曲"
-    },
-    {
-      "key": "10k",
-      "icon": "🎮",
-      "columnIndex": 2,
-      "displayTemplate": "権利: {value}時間分"
-    },
-    {
-      "key": "20k",
-      "icon": "💬",
-      "columnIndex": 3,
-      "displayTemplate": "オープンチャット招待済",
-      "isBoolean": true
-    },
-    {
-      "key": "30k",
-      "icon": "🎤",
-      "columnIndex": 4,
-      "displayTemplate": "アカペラ音源獲得: {value}曲"
     },
     {
       "key": "40k",
@@ -202,7 +215,7 @@ window.DASHBOARD_CONFIG = {
   },
   "effects": {
     "iconFloat": true,
-    "particles": "bubble",
+    "particles": "none",
     "particleDirection": "up",
     "particleColor": "",
     "particleSize": 0.5,
