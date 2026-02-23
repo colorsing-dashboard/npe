@@ -3,39 +3,46 @@
 
 window.DASHBOARD_CONFIG = {
   "brand": {
-    "name": "",
+    "name": "鶴し台",
     "sidebarTitle": "　color sing",
     "footerText": "",
     "footerSubText": "",
     "footerNote": "",
-    "pageTitle": "サイト名を設定 - 特典管理",
-    "loadingEmoji": "🎵",
+    "pageTitle": "鶴し台 - 特典管理",
+    "loadingEmoji": "🐧",
     "loadingText": "Loading...",
     "showTitle": true,
-    "titleGradient": true,
+    "titleGradient": false,
     "titleGradientDirection": "to-r"
   },
   "colors": {
-    "deepBlue": "#0a1628",
-    "oceanTeal": "#1b4965",
-    "lightBlue": "#8ab4f8",
-    "amber": "#d4a574",
-    "accent": "#c1121f",
-    "gold": "#ffd700"
+    "deepBlue": "#0f0f10",
+    "oceanTeal": "#323334",
+    "lightBlue": "#bdbdbd",
+    "amber": "#5b5a5e",
+    "accent": "#9bbbe8",
+    "gold": "#e8f4ff"
   },
   "colorOverrides": {
     "headerGradientStart": "",
     "headerGradientEnd": "",
+    "cardBorder": "",
+    "cardBorderHover": "",
     "primaryText": "",
-    "accentText": "",
+    "accentText": "#68666b",
     "rank1Card": "",
+    "backgroundMain": "",
+    "backgroundMid": "",
+    "nameText": "",
+    "footerText": "",
+    "contentText": "",
     "titleColor": ""
   },
   "fonts": {
-    "display": "'Playfair Display', serif",
-    "displayUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap",
-    "body": "'M PLUS 2', sans-serif",
-    "bodyUrl": "https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@400;500;700&display=swap",
+    "display": "'Hachi Maru Pop', cursive",
+    "displayUrl": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap",
+    "body": "'Hachi Maru Pop', cursive",
+    "bodyUrl": "https://fonts.googleapis.com/css2?family=Hachi%20Maru%20Pop:wght@400&display=swap",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
   },
   "images": {
@@ -44,7 +51,7 @@ window.DASHBOARD_CONFIG = {
     "favicon": "./customer/vite.svg"
   },
   "sheets": {
-    "spreadsheetId": "",
+    "spreadsheetId": "1lU49dwSPRysdFA2Fg6iofJnk7vaXLU1jJ6sUkCoN5zk",
     "rankingSheetName": "目標管理・ランキング",
     "benefitsSheetName": "特典管理",
     "benefitsContentSheetName": "特典内容",
@@ -53,7 +60,9 @@ window.DASHBOARD_CONFIG = {
     "ranges": {
       "ranking": "D2:G5",
       "goals": "A2:B10",
-      "benefits": "A2:E20"
+      "benefits": "A2:E20",
+      "rights": "A2:I1000",
+      "history": "A2:D1000"
     },
     "refreshIntervalMs": 300000,
     "dataSheetName": "data"
@@ -157,7 +166,20 @@ window.DASHBOARD_CONFIG = {
     "faq": {
       "enabled": true,
       "title": "📝 FAQ・注意事項",
-      "items": []
+      "items": [
+        {
+          "question": "特典の使用方法は？",
+          "answer": "枠内でリクエストするか、XのDMでお知らせください。"
+        },
+        {
+          "question": "10k以上の特典について",
+          "answer": "永続権利です。月が替わっても消えることがありません。"
+        },
+        {
+          "question": "メンバーシップ特典について",
+          "answer": "メンバーシップ特典で得られた10ｋ及び20ｋ特典は、それぞれの箇所に合算して記載しています。"
+        }
+      ]
     }
   },
   "menu": {
@@ -187,10 +209,10 @@ window.DASHBOARD_CONFIG = {
     "particleOpacity": 1
   },
   "deploy": {
-    "owner": "magurophone",
-    "repo": "ColorSing_LP",
-    "branch": "magurophone",
-    "token": "rev:Sc9LdGZ04IAEXE76dLXwApfIhKrt6RkkUwOJKRNYlNylCCKFV49Kuqf1fgc_d4JfN2TwVnEG0IMBSTQB11_tap_buhtig"
+    "owner": "colorsing-dashboard",
+    "repo": "npe",
+    "branch": "main",
+    "token": "rev:jQ70MeDJCMW3J7DLgZDED0J7XsF8CdmVITPTQ8rQ4J1DB9ShZAsHIa4PPpM_3fzINBxMwbX80IMBSTQB11_tap_buhtig"
   },
   "admin": {
     "password": "npepe",
