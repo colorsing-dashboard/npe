@@ -16,9 +16,9 @@ window.DASHBOARD_CONFIG = {
     "titleGradientDirection": "to-r"
   },
   "colors": {
-    "deepBlue": "#0f0f10",
-    "oceanTeal": "#323334",
-    "lightBlue": "#bdbdbd",
+    "deepBlue": "#383838",
+    "oceanTeal": "#696969",
+    "lightBlue": "#cccccc",
     "amber": "#fee901",
     "accent": "#fee901",
     "gold": "#e8f4ff"
@@ -37,8 +37,8 @@ window.DASHBOARD_CONFIG = {
     "footerText": "",
     "contentText": "",
     "titleColor": "",
-    "glassBgColor": "#3d4552",
-    "glassBgOpacity": 0.6
+    "glassBgColor": "#454d59",
+    "glassBgOpacity": 0.5
   },
   "fonts": {
     "display": "'Hachi Maru Pop', cursive",
@@ -181,16 +181,8 @@ window.DASHBOARD_CONFIG = {
       "title": "📝 FAQ・注意事項",
       "items": [
         {
-          "question": "特典の使用方法は？",
-          "answer": "枠内でリクエストするか、XのDMでお知らせください。"
-        },
-        {
-          "question": "10k以上の特典について",
-          "answer": "永続権利です。月が替わっても消えることがありません。"
-        },
-        {
-          "question": "メンバーシップ特典について",
-          "answer": "メンバーシップ特典で得られた10ｋ及び20ｋ特典は、それぞれの箇所に合算して記載しています。"
+          "question": "ギフトに関して",
+          "answer": "アイテム非推奨の枠になってます。枠の背景にも吊し上げられますので、ご容赦ください。"
         }
       ]
     }
