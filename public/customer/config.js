@@ -24,8 +24,8 @@ window.DASHBOARD_CONFIG = {
     "gold": "#e8f4ff"
   },
   "colorOverrides": {
-    "headerGradientStart": "",
-    "headerGradientEnd": "",
+    "headerGradientStart": "#52d6fc",
+    "headerGradientEnd": "#004d65",
     "cardBorder": "",
     "cardBorderHover": "",
     "primaryText": "#ffffff",
@@ -36,7 +36,7 @@ window.DASHBOARD_CONFIG = {
     "nameText": "",
     "footerText": "",
     "contentText": "",
-    "titleColor": "",
+    "titleColor": "#f7fadb",
     "glassBgColor": "#454d59",
     "glassBgOpacity": 0.8
   },
