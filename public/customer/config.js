@@ -5,12 +5,12 @@ window.DASHBOARD_CONFIG = {
   "brand": {
     "name": "吊し台(推し特典ぺ)",
     "sidebarTitle": "　color sing",
-    "footerText": "",
+    "footerText": "🐾.......🐾.....",
     "footerSubText": "",
     "footerNote": "",
     "pageTitle": "吊るし台 - 特典管理",
     "loadingEmoji": "🐧🐾🐾🐾",
-    "loadingText": "手配犯呼び出し中...",
+    "loadingText": "...手配犯呼び出し中...",
     "showHeader": true,
     "showTitle": true,
     "titleGradient": true,
@@ -34,7 +34,7 @@ window.DASHBOARD_CONFIG = {
     "cardBorder": "",
     "cardBorderHover": "",
     "primaryText": "#ffffff",
-    "accentText": "#d357fe",
+    "accentText": "#831100",
     "rank1Card": "",
     "backgroundMain": "",
     "backgroundMid": "",
@@ -44,9 +44,9 @@ window.DASHBOARD_CONFIG = {
     "titleColor": "#f7fadb",
     "subText": "",
     "popupOverlayColor": "",
-    "popupOverlayOpacity": 0.44999999999999996,
+    "popupOverlayOpacity": 0.65,
     "glassBgColor": "#454d59",
-    "glassBgOpacity": 0.44999999999999996
+    "glassBgOpacity": 0.75
   },
   "fonts": {
     "display": "'Great Vibes', cursive",
@@ -177,7 +177,7 @@ window.DASHBOARD_CONFIG = {
     "iconNoImages": "アイコンがありません",
     "userListTitle": "拘留中",
     "userIconTitle": "{user} ",
-    "searchPlaceholder": "🔍 名前で検索...",
+    "searchPlaceholder": "🔍 犯人を探す",
     "specialRightLabel": "極",
     "imageError": "画像エラー"
   },
@@ -187,7 +187,7 @@ window.DASHBOARD_CONFIG = {
     "particleDirection": "up",
     "particleColor": "#a7c6ff",
     "particleSize": 2,
-    "particleOpacity": 3.5
+    "particleOpacity": 4.5
   },
   "deploy": {
     "owner": "colorsing-dashboard",
