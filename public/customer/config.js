@@ -17,10 +17,10 @@ window.DASHBOARD_CONFIG = {
   },
   "colors": {
     "deepBlue": "#74a7ff",
-    "oceanTeal": "#707070",
-    "lightBlue": "#58c0e0",
-    "amber": "#c0b8f0",
-    "accent": "#ffc334",
+    "oceanTeal": "#858585",
+    "lightBlue": "#a7c6ff",
+    "amber": "#ffc777",
+    "accent": "#ff8648",
     "gold": "#ffd700"
   },
   "colorOverrides": {
