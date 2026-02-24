@@ -22,7 +22,7 @@ window.DASHBOARD_CONFIG = {
     "oceanTeal": "#858585",
     "lightBlue": "#a7c6ff",
     "amber": "#ffc777",
-    "accent": "#ff8648",
+    "accent": "#5c0701",
     "gold": "#ffd700"
   },
   "colorOverrides": {
@@ -34,7 +34,7 @@ window.DASHBOARD_CONFIG = {
     "cardBorder": "",
     "cardBorderHover": "",
     "primaryText": "#ffffff",
-    "accentText": "#831100",
+    "accentText": "#5a1c00",
     "rank1Card": "",
     "backgroundMain": "",
     "backgroundMid": "",
