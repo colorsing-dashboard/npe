@@ -11,9 +11,11 @@ window.DASHBOARD_CONFIG = {
     "pageTitle": "吊るし台 - 特典管理",
     "loadingEmoji": "🐧🐾🐾🐾",
     "loadingText": "手配犯呼び出し中...",
+    "showHeader": true,
     "showTitle": true,
     "titleGradient": true,
-    "titleGradientDirection": "to-b"
+    "titleGradientDirection": "to-b",
+    "titleGlow": true
   },
   "colors": {
     "deepBlue": "#74a7ff",
@@ -26,6 +28,9 @@ window.DASHBOARD_CONFIG = {
   "colorOverrides": {
     "headerGradientStart": "#52d6fc",
     "headerGradientEnd": "#004d65",
+    "titleGradientStart": "",
+    "titleGradientMid": "",
+    "titleGradientEnd": "",
     "cardBorder": "",
     "cardBorderHover": "",
     "primaryText": "#ffffff",
@@ -39,15 +44,15 @@ window.DASHBOARD_CONFIG = {
     "titleColor": "#f7fadb",
     "subText": "",
     "popupOverlayColor": "",
-    "popupOverlayOpacity": "",
+    "popupOverlayOpacity": 0.44999999999999996,
     "glassBgColor": "#454d59",
-    "glassBgOpacity": 0.8
+    "glassBgOpacity": 0.44999999999999996
   },
   "fonts": {
-    "display": "'Orbitron', sans-serif",
-    "displayUrl": "https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap",
-    "body": "'Zen Kaku Gothic New', sans-serif",
-    "bodyUrl": "https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap",
+    "display": "'Great Vibes', cursive",
+    "displayUrl": "https://fonts.googleapis.com/css2?family=Great%20Vibes:wght@400&display=swap",
+    "body": "'Sacramento', cursive",
+    "bodyUrl": "https://fonts.googleapis.com/css2?family=Sacramento:wght@400&display=swap",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
   },
   "images": {
@@ -140,11 +145,12 @@ window.DASHBOARD_CONFIG = {
   ],
   "home": {
     "rankingTitle": "Ranking",
-    "pointsLabel": "歌推しPt",
-    "targetsTitle": "Targets",
+    "pointsLabel": "刑期",
+    "pointsUnit": "刑",
+    "targetsTitle": "WANTED",
     "targetLabels": [
-      "今旬の目標",
-      "今月の目標"
+      "旬",
+      "月"
     ],
     "faq": {
       "enabled": true,
@@ -158,7 +164,7 @@ window.DASHBOARD_CONFIG = {
     }
   },
   "menu": {
-    "title": "Menu"
+    "title": "案内板"
   },
   "ui": {
     "errorTitle": "呼び出してないので確認してください",
@@ -169,10 +175,10 @@ window.DASHBOARD_CONFIG = {
     "iconLoading": "アイコンデータを読み込み中...",
     "iconEmpty": "アイコンデータがありません",
     "iconNoImages": "アイコンがありません",
-    "userListTitle": "獲得者一覧",
+    "userListTitle": "拘留中",
     "userIconTitle": "{user} ",
     "searchPlaceholder": "🔍 名前で検索...",
-    "specialRightLabel": "Special権利",
+    "specialRightLabel": "極",
     "imageError": "画像エラー"
   },
   "effects": {
