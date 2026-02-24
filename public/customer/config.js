@@ -5,9 +5,9 @@ window.DASHBOARD_CONFIG = {
   "brand": {
     "name": "吊し台(推し特典ぺ)",
     "sidebarTitle": "　color sing",
-    "footerText": "🐾.......🐾.....",
-    "footerSubText": "",
-    "footerNote": "",
+    "footerText": "罪を数えよ",
+    "footerSubText": "🐧🐾.......🐧🐾.......",
+    "footerNote": ".....遊びは計画的にしないと手配入り",
     "pageTitle": "吊るし台 - 特典管理",
     "loadingEmoji": "🐧🐾🐾🐾",
     "loadingText": "...手配犯呼び出し中...",
@@ -42,11 +42,11 @@ window.DASHBOARD_CONFIG = {
     "footerText": "",
     "contentText": "",
     "titleColor": "#f7fadb",
-    "subText": "",
+    "subText": "#333333",
     "popupOverlayColor": "",
     "popupOverlayOpacity": 0.35,
     "glassBgColor": "#ffffff",
-    "glassBgOpacity": 0.30000000000000004
+    "glassBgOpacity": 0.19999999999999996
   },
   "fonts": {
     "display": "'Great Vibes', cursive",
@@ -185,9 +185,9 @@ window.DASHBOARD_CONFIG = {
     "iconFloat": true,
     "particles": "bubble",
     "particleDirection": "up",
-    "particleColor": "#a7c6ff",
+    "particleColor": "#cbf0ff",
     "particleSize": 2,
-    "particleOpacity": 4.5
+    "particleOpacity": 2.5
   },
   "deploy": {
     "owner": "colorsing-dashboard",
