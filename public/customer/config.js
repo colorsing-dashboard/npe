@@ -20,7 +20,7 @@ window.DASHBOARD_CONFIG = {
   "colors": {
     "deepBlue": "#74a7ff",
     "oceanTeal": "#858585",
-    "lightBlue": "#a7c6ff",
+    "lightBlue": "#ffffff",
     "amber": "#ffc777",
     "accent": "#5c0701",
     "gold": "#ffd700"
@@ -28,9 +28,9 @@ window.DASHBOARD_CONFIG = {
   "colorOverrides": {
     "headerGradientStart": "#52d6fc",
     "headerGradientEnd": "#004d65",
-    "titleGradientStart": "",
-    "titleGradientMid": "",
-    "titleGradientEnd": "",
+    "titleGradientStart": "#fff994",
+    "titleGradientMid": "#96d35f",
+    "titleGradientEnd": "#3a87fe",
     "cardBorder": "",
     "cardBorderHover": "",
     "primaryText": "#ffffff",
