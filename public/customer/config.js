@@ -161,11 +161,11 @@ window.DASHBOARD_CONFIG = {
     "title": "Menu"
   },
   "ui": {
-    "errorTitle": "エラー",
+    "errorTitle": "呼び出してないので確認してください",
     "errorMessage": "データの読み込みに失敗しました。しばらくしてから再度お試しください。",
-    "retryButton": "再読み込み",
-    "refreshButton": "更新",
-    "lastUpdate": "最終更新",
+    "retryButton": "再呼び出し中",
+    "refreshButton": "罪数え",
+    "lastUpdate": "最終罪状",
     "iconLoading": "アイコンデータを読み込み中...",
     "iconEmpty": "アイコンデータがありません",
     "iconNoImages": "アイコンがありません",
@@ -179,9 +179,9 @@ window.DASHBOARD_CONFIG = {
     "iconFloat": true,
     "particles": "bubble",
     "particleDirection": "up",
-    "particleColor": "",
-    "particleSize": 1,
-    "particleOpacity": 2
+    "particleColor": "#a7c6ff",
+    "particleSize": 2,
+    "particleOpacity": 3.5
   },
   "deploy": {
     "owner": "colorsing-dashboard",
