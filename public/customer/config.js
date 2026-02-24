@@ -44,9 +44,9 @@ window.DASHBOARD_CONFIG = {
     "titleColor": "#f7fadb",
     "subText": "",
     "popupOverlayColor": "",
-    "popupOverlayOpacity": 0.65,
-    "glassBgColor": "#454d59",
-    "glassBgOpacity": 0.75
+    "popupOverlayOpacity": 0.35,
+    "glassBgColor": "#ffffff",
+    "glassBgOpacity": 0.30000000000000004
   },
   "fonts": {
     "display": "'Great Vibes', cursive",
