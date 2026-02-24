@@ -5,63 +5,63 @@ window.DASHBOARD_CONFIG = {
   "brand": {
     "name": "吊し台(推し特典ぺ)",
     "sidebarTitle": "　color sing",
-    "footerText": "罪を数えよ",
-    "footerSubText": "🐧🐾.......🐧🐾.......",
-    "footerNote": ".....遊びは計画的にしないと手配入り.....",
-    "pageTitle": "吊るし台 - 特典管理",
+    "footerText": "",
+    "footerSubText": "",
+    "footerNote": "",
+    "pageTitle": "鶴し台 - 特典管理",
     "loadingEmoji": "🐧🐾🐾🐾",
-    "loadingText": "...手配犯呼び出し中...",
+    "loadingText": "手配班呼び出し中...",
     "showHeader": true,
     "showTitle": true,
     "titleGradient": true,
-    "titleGradientDirection": "to-t",
+    "titleGradientDirection": "to-b",
     "titleGlow": true
   },
   "colors": {
-    "deepBlue": "#74a7ff",
-    "oceanTeal": "#858585",
-    "lightBlue": "#a7c6ff",
-    "amber": "#ffc777",
-    "accent": "#5c0701",
-    "gold": "#ffd700"
+    "deepBlue": "#06080e",
+    "oceanTeal": "#0c1428",
+    "lightBlue": "#58c0e0",
+    "amber": "#c0b8f0",
+    "accent": "#4080d8",
+    "gold": "#e8f4ff"
   },
   "colorOverrides": {
-    "headerGradientStart": "#52d6fc",
-    "headerGradientEnd": "#004d65",
+    "headerGradientStart": "#012f7b",
+    "headerGradientEnd": "#474747",
     "titleGradientStart": "",
     "titleGradientMid": "",
     "titleGradientEnd": "",
     "cardBorder": "",
     "cardBorderHover": "",
-    "primaryText": "#ffffff",
-    "accentText": "#5a1c00",
+    "primaryText": "",
+    "accentText": "",
     "rank1Card": "",
     "backgroundMain": "",
     "backgroundMid": "",
     "nameText": "",
     "footerText": "",
     "contentText": "",
-    "titleColor": "#f7fadb",
+    "titleColor": "",
     "subText": "#333333",
     "popupOverlayColor": "",
     "popupOverlayOpacity": 0.35,
-    "glassBgColor": "#ffffff",
-    "glassBgOpacity": 0.19999999999999996
+    "glassBgColor": "#454d59",
+    "glassBgOpacity": 0.8
   },
   "fonts": {
-    "display": "'Noto Serif JP', serif",
-    "displayUrl": "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&display=swap",
-    "body": "'Stick', sans-serif",
-    "bodyUrl": "https://fonts.googleapis.com/css2?family=Stick:wght@400&display=swap",
+    "display": "'Hachi Maru Pop', cursive",
+    "displayUrl": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap",
+    "body": "'Hachi Maru Pop', cursive",
+    "bodyUrl": "https://fonts.googleapis.com/css2?family=Hachi%20Maru%20Pop:wght@400&display=swap",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
   },
   "images": {
-    "headerDesktop": "https://drive.google.com/file/d/1p-dwAZ8M1Nqi3-Ej0g3QJSLoniw3mcxq/view?usp=drivesdk",
-    "headerMobile": "https://drive.google.com/file/d/1OdK7pB5nl06scngYG_lMAowGo97mR0ja/view?usp=drivesdk",
+    "headerDesktop": "https://drive.google.com/file/d/1F7Aq5jNHndafXdF5V-n1CIqAD1N90QVB/view?usp=drivesdk",
+    "headerMobile": "https://drive.google.com/file/d/1OewD1Xmpd1JTEiroQfyFfQlhVzn61fB9/view?usp=drivesdk",
     "favicon": "./customer/vite.svg"
   },
   "sheets": {
-    "spreadsheetId": "1kcbwCKJPBxK1m63xuvMs3-y7t0sBtv6TUA3SUYO5hsA",
+    "spreadsheetId": "1-HbWK_-RuNYTt5jHklwrM-LQMzSOttBa2Vb51L0C_GQ",
     "rankingSheetName": "目標管理・ランキング",
     "benefitsSheetName": "特典管理",
     "benefitsContentSheetName": "特典内容",
@@ -117,7 +117,7 @@ window.DASHBOARD_CONFIG = {
     },
     {
       "key": "5k",
-      "icon": "🖼️",
+      "icon": "🔒",
       "columnIndex": 2,
       "displayTemplate": "獲得済！",
       "isBoolean": true
@@ -145,12 +145,12 @@ window.DASHBOARD_CONFIG = {
   ],
   "home": {
     "rankingTitle": "Ranking",
-    "pointsLabel": "刑期",
+    "pointsLabel": "歌推しPt",
     "pointsUnit": "年",
-    "targetsTitle": "WANTED",
+    "targetsTitle": "Targets",
     "targetLabels": [
-      "旬",
-      "月"
+      "今旬の目標",
+      "今月の目標"
     ],
     "faq": {
       "enabled": true,
@@ -158,39 +158,35 @@ window.DASHBOARD_CONFIG = {
       "items": [
         {
           "question": "ギフトに関して",
-          "answer": "アイテム非推奨の枠になってます。枠の背景にも吊し上げられますので、ご容赦ください。そのためここの使用は吊し上げ仕様です。"
-        },
-        {
-          "question": "刑期について",
-          "answer": "ある年数に達すると、良い行いをすることで得るものがあります。ご用意してないものに関しては最初の到達者と相談になります。"
+          "answer": "アイテム非推奨の枠になってます。枠の背景にも吊し上げられますので、ご容赦ください。"
         }
       ]
     }
   },
   "menu": {
-    "title": "案内板"
+    "title": "Menu"
   },
   "ui": {
-    "errorTitle": "呼び出してないので確認してください",
+    "errorTitle": "エラー",
     "errorMessage": "データの読み込みに失敗しました。しばらくしてから再度お試しください。",
-    "retryButton": "🛎️再呼び出し中🛎️",
-    "refreshButton": "⚔️罪数え⚔️",
-    "lastUpdate": "📝最終罪状📝",
-    "iconLoading": "...🔍指名手配犯検索中...",
-    "iconEmpty": "✨あなたは良市民✨",
-    "iconNoImages": "⚒️罪状準備中⚒️",
-    "userListTitle": "拘留中",
+    "retryButton": "再読み込み",
+    "refreshButton": "更新",
+    "lastUpdate": "最終更新",
+    "iconLoading": "アイコンデータを読み込み中...",
+    "iconEmpty": "アイコンデータがありません",
+    "iconNoImages": "アイコンがありません",
+    "userListTitle": "獲得者一覧",
     "userIconTitle": "{user} ",
-    "searchPlaceholder": "🔍 犯人を探す",
-    "specialRightLabel": "極🗡️",
+    "searchPlaceholder": "🔍 名前で検索...",
+    "specialRightLabel": "Special権利",
     "imageError": "画像エラー"
   },
   "effects": {
     "iconFloat": true,
     "particles": "bubble",
     "particleDirection": "up",
-    "particleColor": "#cbf0ff",
-    "particleSize": 2,
+    "particleColor": "#ebebeb",
+    "particleSize": 1,
     "particleOpacity": 2
   },
   "deploy": {
