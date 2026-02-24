@@ -14,7 +14,7 @@ window.DASHBOARD_CONFIG = {
     "showHeader": true,
     "showTitle": true,
     "titleGradient": true,
-    "titleGradientDirection": "to-b",
+    "titleGradientDirection": "to-t",
     "titleGlow": true
   },
   "colors": {
@@ -49,10 +49,10 @@ window.DASHBOARD_CONFIG = {
     "glassBgOpacity": 0.19999999999999996
   },
   "fonts": {
-    "display": "'Great Vibes', cursive",
-    "displayUrl": "https://fonts.googleapis.com/css2?family=Great%20Vibes:wght@400&display=swap",
-    "body": "'Sacramento', cursive",
-    "bodyUrl": "https://fonts.googleapis.com/css2?family=Sacramento:wght@400&display=swap",
+    "display": "'Noto Serif JP', serif",
+    "displayUrl": "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&display=swap",
+    "body": "'Stick', sans-serif",
+    "bodyUrl": "https://fonts.googleapis.com/css2?family=Stick:wght@400&display=swap",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
   },
   "images": {
