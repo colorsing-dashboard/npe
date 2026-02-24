@@ -173,16 +173,16 @@ window.DASHBOARD_CONFIG = {
   "ui": {
     "errorTitle": "呼び出してないので確認してください",
     "errorMessage": "データの読み込みに失敗しました。しばらくしてから再度お試しください。",
-    "retryButton": "再呼び出し中",
-    "refreshButton": "罪数え",
-    "lastUpdate": "最終罪状",
-    "iconLoading": "アイコンデータを読み込み中...",
-    "iconEmpty": "アイコンデータがありません",
-    "iconNoImages": "アイコンがありません",
+    "retryButton": "🛎️再呼び出し中🛎️",
+    "refreshButton": "⚔️罪数え⚔️",
+    "lastUpdate": "📝最終罪状📝",
+    "iconLoading": "...🔍指名手配犯検索中...",
+    "iconEmpty": "✨あなたは良市民✨",
+    "iconNoImages": "⚒️罪状準備中⚒️",
     "userListTitle": "拘留中",
     "userIconTitle": "{user} ",
     "searchPlaceholder": "🔍 犯人を探す",
-    "specialRightLabel": "極",
+    "specialRightLabel": "極🗡️",
     "imageError": "画像エラー"
   },
   "effects": {
