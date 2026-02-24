@@ -8,7 +8,7 @@ window.DASHBOARD_CONFIG = {
     "footerText": "",
     "footerSubText": "",
     "footerNote": "",
-    "pageTitle": "鶴し台 - 特典管理",
+    "pageTitle": "吊るし台 - 特典管理",
     "loadingEmoji": "🐧🐾🐾🐾",
     "loadingText": "手配犯呼び出し中...",
     "showTitle": true,
@@ -16,12 +16,12 @@ window.DASHBOARD_CONFIG = {
     "titleGradientDirection": "to-b"
   },
   "colors": {
-    "deepBlue": "#06080e",
-    "oceanTeal": "#0c1428",
+    "deepBlue": "#74a7ff",
+    "oceanTeal": "#707070",
     "lightBlue": "#58c0e0",
     "amber": "#c0b8f0",
-    "accent": "#4080d8",
-    "gold": "#e8f4ff"
+    "accent": "#ffc334",
+    "gold": "#ffd700"
   },
   "colorOverrides": {
     "headerGradientStart": "#52d6fc",
@@ -37,14 +37,17 @@ window.DASHBOARD_CONFIG = {
     "footerText": "",
     "contentText": "",
     "titleColor": "#f7fadb",
+    "subText": "",
+    "popupOverlayColor": "",
+    "popupOverlayOpacity": "",
     "glassBgColor": "#454d59",
     "glassBgOpacity": 0.8
   },
   "fonts": {
-    "display": "'Poppins', sans-serif",
-    "displayUrl": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap",
-    "body": "'Hachi Maru Pop', cursive",
-    "bodyUrl": "https://fonts.googleapis.com/css2?family=Hachi%20Maru%20Pop:wght@400&display=swap",
+    "display": "'Orbitron', sans-serif",
+    "displayUrl": "https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap",
+    "body": "'Zen Kaku Gothic New', sans-serif",
+    "bodyUrl": "https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
   },
   "images": {
@@ -109,7 +112,7 @@ window.DASHBOARD_CONFIG = {
     },
     {
       "key": "5k",
-      "icon": "🔒",
+      "icon": "🖼️",
       "columnIndex": 2,
       "displayTemplate": "獲得済！",
       "isBoolean": true
