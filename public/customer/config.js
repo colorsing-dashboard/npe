@@ -7,7 +7,7 @@ window.DASHBOARD_CONFIG = {
     "sidebarTitle": "　color sing",
     "footerText": "罪を数えよ",
     "footerSubText": "🐧🐾.......🐧🐾.......",
-    "footerNote": ".....遊びは計画的にしないと手配入り",
+    "footerNote": ".....遊びは計画的にしないと手配入り.....",
     "pageTitle": "吊るし台 - 特典管理",
     "loadingEmoji": "🐧🐾🐾🐾",
     "loadingText": "...手配犯呼び出し中...",
@@ -146,7 +146,7 @@ window.DASHBOARD_CONFIG = {
   "home": {
     "rankingTitle": "Ranking",
     "pointsLabel": "刑期",
-    "pointsUnit": "刑",
+    "pointsUnit": "年",
     "targetsTitle": "WANTED",
     "targetLabels": [
       "旬",
@@ -158,7 +158,11 @@ window.DASHBOARD_CONFIG = {
       "items": [
         {
           "question": "ギフトに関して",
-          "answer": "アイテム非推奨の枠になってます。枠の背景にも吊し上げられますので、ご容赦ください。"
+          "answer": "アイテム非推奨の枠になってます。枠の背景にも吊し上げられますので、ご容赦ください。そのためここの使用は吊し上げ仕様です。"
+        },
+        {
+          "question": "刑期について",
+          "answer": "ある年数に達すると、良い行いをすることで得るものがあります。ご用意してないものに関しては最初の到達者と相談になります。"
         }
       ]
     }
@@ -187,7 +191,7 @@ window.DASHBOARD_CONFIG = {
     "particleDirection": "up",
     "particleColor": "#cbf0ff",
     "particleSize": 2,
-    "particleOpacity": 2.5
+    "particleOpacity": 2
   },
   "deploy": {
     "owner": "colorsing-dashboard",
