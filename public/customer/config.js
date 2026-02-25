@@ -20,7 +20,7 @@ window.DASHBOARD_CONFIG = {
   "colors": {
     "deepBlue": "#74a7ff",
     "oceanTeal": "#858585",
-    "lightBlue": "#ffffff",
+    "lightBlue": "#a7c6ff",
     "amber": "#ffc777",
     "accent": "#5c0701",
     "gold": "#ffd700"
@@ -28,9 +28,9 @@ window.DASHBOARD_CONFIG = {
   "colorOverrides": {
     "headerGradientStart": "#52d6fc",
     "headerGradientEnd": "#004d65",
-    "titleGradientStart": "#74a7ff",
-    "titleGradientMid": "#371a94",
-    "titleGradientEnd": "#831100",
+    "titleGradientStart": "",
+    "titleGradientMid": "",
+    "titleGradientEnd": "",
     "cardBorder": "",
     "cardBorderHover": "",
     "primaryText": "#ffffff",
@@ -56,8 +56,8 @@ window.DASHBOARD_CONFIG = {
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
   },
   "images": {
-    "headerDesktop": "https://drive.google.com/file/d/1nfUfNDofw7wgGKfE3IhRaLnJWfkeFzTG/view?usp=drivesdk",
-    "headerMobile": "https://drive.google.com/file/d/1k08s1STFkw_J9uuUR_XJGU1nkQd_2gsq/view?usp=drivesdk",
+    "headerDesktop": "https://drive.google.com/file/d/1p-dwAZ8M1Nqi3-Ej0g3QJSLoniw3mcxq/view?usp=drivesdk",
+    "headerMobile": "https://drive.google.com/file/d/1OdK7pB5nl06scngYG_lMAowGo97mR0ja/view?usp=drivesdk",
     "favicon": "./customer/vite.svg"
   },
   "sheets": {
@@ -173,16 +173,16 @@ window.DASHBOARD_CONFIG = {
   "ui": {
     "errorTitle": "呼び出してないので確認してください",
     "errorMessage": "データの読み込みに失敗しました。しばらくしてから再度お試しください。",
-    "retryButton": "🛎️再呼び出し中🛎️",
-    "refreshButton": "⚔️罪数え⚔️",
-    "lastUpdate": "📝最終罪状📝",
-    "iconLoading": "...🔍指名手配犯検索中...",
-    "iconEmpty": "✨あなたは良市民✨",
-    "iconNoImages": "⚒️罪状準備中⚒️",
+    "retryButton": "再呼び出し中",
+    "refreshButton": "罪数え",
+    "lastUpdate": "最終罪状",
+    "iconLoading": "アイコンデータを読み込み中...",
+    "iconEmpty": "アイコンデータがありません",
+    "iconNoImages": "アイコンがありません",
     "userListTitle": "拘留中",
     "userIconTitle": "{user} ",
     "searchPlaceholder": "🔍 犯人を探す",
-    "specialRightLabel": "極🗡️",
+    "specialRightLabel": "極",
     "imageError": "画像エラー"
   },
   "effects": {
