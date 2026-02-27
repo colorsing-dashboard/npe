@@ -17,6 +17,8 @@ const DEFAULT_CONFIG = {
     titleGlow: true,
     titlePosition: 'center',
     titleSize: 'large',
+    titleTextFill: 'white',
+    titleTextColor: '#ffffff',
     titleGlassBg: 0.35,
     titleGlassBlur: 12,
     titlePaddingY: 12,

@@ -46,6 +46,18 @@ const TitleText = ({ config, glowClass, compact = false }) => {
   const paddingY = config.brand.titlePaddingY ?? 12
 
   if (effectiveStyle === 'glass') {
+    const textFill = config.brand.titleTextFill || 'white'
+    const textColor = config.brand.titleTextColor || '#ffffff'
+    const gradientStyle = `linear-gradient(${dir}, var(--color-title-gradient-start, var(--color-ocean-teal)), var(--color-title-gradient-mid, var(--color-light-blue)), var(--color-title-gradient-end, var(--color-amber)))`
+    const h1Style = textFill === 'gradient'
+      ? { backgroundImage: gradientStyle, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }
+      : textFill === 'custom'
+        ? { color: textColor }
+        : {}
+    const textClass = textFill === 'gradient'
+      ? `${sizeClass} font-display font-black tracking-wide bg-clip-text text-transparent drop-shadow-lg ${glowClass} leading-relaxed py-2`
+      : `${sizeClass} font-display font-black tracking-wide text-white drop-shadow-lg ${glowClass} leading-relaxed py-2`
+
     return (
       <div className="mb-4 inline-block">
         <div
@@ -57,7 +69,7 @@ const TitleText = ({ config, glowClass, compact = false }) => {
             paddingBottom: `${paddingY}px`,
           }}
         >
-          <h1 className={`${sizeClass} font-display font-black tracking-wide text-white drop-shadow-lg ${glowClass} leading-relaxed py-2`}>
+          <h1 className={textClass} style={h1Style}>
             {config.brand.name}
           </h1>
         </div>

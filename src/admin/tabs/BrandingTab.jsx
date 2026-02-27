@@ -162,6 +162,27 @@ const BrandingTab = ({ config, updateConfig }) => {
           {(config.brand.titleStyle || 'glass') === 'glass' && (
             <div className="space-y-3 pl-3 border-l-2 border-amber/20">
               <div>
+                <label className="block text-xs text-gray-500 mb-1">文字カラー</label>
+                <div className="flex gap-2">
+                  {[['white','白（固定）'],['gradient','グラデーション'],['custom','カスタム']].map(([v, label]) => (
+                    <button key={v}
+                      onClick={() => updateConfig('brand.titleTextFill', v)}
+                      className={`px-3 py-1 rounded text-xs transition-all ${(config.brand.titleTextFill || 'white') === v ? 'bg-amber text-deep-blue font-bold' : 'glass-effect border border-light-blue/30 text-gray-300'}`}
+                    >{label}</button>
+                  ))}
+                </div>
+              </div>
+              {(config.brand.titleTextFill || 'white') === 'custom' && (
+                <div className="flex items-center gap-3">
+                  <input type="color"
+                    value={config.brand.titleTextColor || '#ffffff'}
+                    onChange={(e) => updateConfig('brand.titleTextColor', e.target.value)}
+                    className="w-10 h-8 rounded cursor-pointer border-0 bg-transparent"
+                  />
+                  <span className="text-xs text-gray-400">{config.brand.titleTextColor || '#ffffff'}</span>
+                </div>
+              )}
+              <div>
                 <label className="block text-xs text-gray-500 mb-1">
                   ガラス背景の濃さ：{Math.round((config.brand.titleGlassBg ?? 0.35) * 100)}%
                 </label>
