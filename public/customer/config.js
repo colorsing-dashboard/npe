@@ -13,9 +13,24 @@ window.DASHBOARD_CONFIG = {
     "loadingText": "...手配犯呼び出し中...",
     "showHeader": true,
     "showTitle": true,
+    "titleStyle": "glass",
     "titleGradient": true,
     "titleGradientDirection": "to-t",
-    "titleGlow": true
+    "titleGlow": true,
+    "titlePosition": "center",
+    "titleSize": "medium",
+    "titleTextFill": "gradient",
+    "titleGlassBg": 0.6,
+    "titleGlassBlur": 21,
+    "titlePaddingY": 12,
+    "headerOverlayOpacity": 0.5,
+    "headerImageFit": "contain",
+    "headerHeight": "",
+    "headerHeightMobile": "",
+    "headerImageW": 0,
+    "headerImageH": 0,
+    "headerImageWMobile": 0,
+    "headerImageHMobile": 0
   },
   "colors": {
     "deepBlue": "#74a7ff",
@@ -39,12 +54,14 @@ window.DASHBOARD_CONFIG = {
     "backgroundMain": "",
     "backgroundMid": "",
     "nameText": "",
-    "footerText": "",
+    "footerText": "#5c0701",
     "contentText": "",
     "titleColor": "#f7fadb",
     "subText": "#333333",
     "popupOverlayColor": "",
     "popupOverlayOpacity": 0.35,
+    "menuCardLabelColor": "",
+    "menuCardLabelOpacity": "",
     "glassBgColor": "#ffffff",
     "glassBgOpacity": 0.19999999999999996
   },
@@ -67,6 +84,7 @@ window.DASHBOARD_CONFIG = {
     "benefitsContentSheetName": "特典内容",
     "historySheetName": "特典履歴",
     "iconSheetName": "枠内アイコン",
+    "eventSheetName": "イベント",
     "ranges": {
       "ranking": "D2:G5",
       "goals": "A2:B10",
@@ -104,6 +122,13 @@ window.DASHBOARD_CONFIG = {
       "icon": "🖼️",
       "enabled": true,
       "title": "手配写真"
+    },
+    {
+      "id": "events",
+      "label": "イベント",
+      "icon": "📖",
+      "enabled": true,
+      "title": "イベント"
     }
   ],
   "benefitTiers": [
@@ -127,7 +152,9 @@ window.DASHBOARD_CONFIG = {
       "icon": "🎭",
       "columnIndex": 3,
       "displayTemplate": "獲得済！",
-      "isBoolean": true
+      "isBoolean": true,
+      "useKey": true,
+      "accessKey": "お淑やか"
     },
     {
       "key": "20k",
@@ -174,14 +201,14 @@ window.DASHBOARD_CONFIG = {
     "errorTitle": "呼び出してないので確認してください",
     "errorMessage": "データの読み込みに失敗しました。しばらくしてから再度お試しください。",
     "retryButton": "再呼び出し中",
-    "refreshButton": "罪数え",
+    "refreshButton": "罪状判定",
     "lastUpdate": "最終罪状",
     "iconLoading": "アイコンデータを読み込み中...",
     "iconEmpty": "アイコンデータがありません",
     "iconNoImages": "アイコンがありません",
     "userListTitle": "拘留中",
     "userIconTitle": "{user} ",
-    "searchPlaceholder": "🔍 犯人を探す",
+    "searchPlaceholder": "🔍 犯人を探す🔍",
     "specialRightLabel": "極",
     "imageError": "画像エラー"
   },
