@@ -28,16 +28,34 @@ const sanitizeCssUrl = (url) => {
   return sanitized ? `url('${sanitized}')` : null
 }
 
-const TitleText = ({ config, sizeClass, glowClass }) => {
+const TITLE_SIZE = {
+  small:  { mobile: 'text-2xl', desktop: 'text-4xl' },
+  medium: { mobile: 'text-4xl', desktop: 'text-6xl' },
+  large:  { mobile: 'text-5xl', desktop: 'text-8xl' },
+  xlarge: { mobile: 'text-6xl', desktop: 'text-9xl' },
+}
+
+const TitleText = ({ config, glowClass, compact = false }) => {
   const effectiveStyle = config.brand.titleStyle || 'glass'
   const dir = GRADIENT_DIR[config.brand.titleGradientDirection] || 'to right'
+  const sizeKey = compact ? 'small' : (config.brand.titleSize || 'large')
+  const { mobile, desktop } = TITLE_SIZE[sizeKey] || TITLE_SIZE.large
+  const sizeClass = compact ? 'text-2xl md:text-3xl' : `${mobile} md:${desktop}`
+  const glassBg = config.brand.titleGlassBg ?? 0.35
+  const glassBlur = config.brand.titleGlassBlur ?? 12
+  const paddingY = config.brand.titlePaddingY ?? 12
 
   if (effectiveStyle === 'glass') {
     return (
       <div className="mb-4 inline-block">
         <div
-          className="px-6 py-3 rounded-xl"
-          style={{ backgroundColor: 'rgba(0,0,0,0.35)', backdropFilter: 'blur(12px)' }}
+          className="px-6 rounded-xl"
+          style={{
+            backgroundColor: `rgba(0,0,0,${glassBg})`,
+            backdropFilter: `blur(${glassBlur}px)`,
+            paddingTop: `${paddingY}px`,
+            paddingBottom: `${paddingY}px`,
+          }}
         >
           <h1 className={`${sizeClass} font-display font-black tracking-wide text-white drop-shadow-lg ${glowClass} leading-relaxed py-2`}>
             {config.brand.name}
@@ -81,7 +99,7 @@ const Header = ({ lastUpdate, loading, onRefresh }) => {
     return (
       <div className="w-full px-6 py-4 flex items-center justify-between gap-4">
         {config.brand.showTitle !== false && (
-          <TitleText config={config} sizeClass="text-2xl md:text-3xl" glowClass={glowClass} />
+          <TitleText config={config} glowClass={glowClass} compact />
         )}
         <div className="flex items-center gap-3 ml-auto shrink-0">
           {lastUpdate && (
@@ -153,7 +171,7 @@ const Header = ({ lastUpdate, loading, onRefresh }) => {
       {config.brand.showTitle !== false && (
         <div className={`absolute inset-0 flex ${posClass}`}>
           <div className={`${isCenter ? 'text-center' : ''} px-4`}>
-            <TitleText config={config} sizeClass="text-4xl md:text-8xl" glowClass={glowClass} />
+            <TitleText config={config} glowClass={glowClass} />
           </div>
         </div>
       )}

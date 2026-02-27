@@ -144,6 +144,55 @@ const BrandingTab = ({ config, updateConfig }) => {
               <option value="bottom-right">右下</option>
             </select>
           </div>
+
+          <div>
+            <label className="block text-xs text-gray-500 mb-1">
+              文字サイズ：{['小', '中', '大', '特大'][(['small','medium','large','xlarge'].indexOf(config.brand.titleSize || 'large'))]}
+            </label>
+            <input type="range" min="0" max="3" step="1"
+              value={['small','medium','large','xlarge'].indexOf(config.brand.titleSize || 'large')}
+              onChange={(e) => updateConfig('brand.titleSize', ['small','medium','large','xlarge'][+e.target.value])}
+              className="w-full accent-amber"
+            />
+            <div className="flex justify-between text-xs text-gray-600 mt-0.5">
+              <span>小</span><span>中</span><span>大</span><span>特大</span>
+            </div>
+          </div>
+
+          {(config.brand.titleStyle || 'glass') === 'glass' && (
+            <div className="space-y-3 pl-3 border-l-2 border-amber/20">
+              <div>
+                <label className="block text-xs text-gray-500 mb-1">
+                  ガラス背景の濃さ：{Math.round((config.brand.titleGlassBg ?? 0.35) * 100)}%
+                </label>
+                <input type="range" min="0" max="100" step="5"
+                  value={Math.round((config.brand.titleGlassBg ?? 0.35) * 100)}
+                  onChange={(e) => updateConfig('brand.titleGlassBg', +e.target.value / 100)}
+                  className="w-full accent-amber"
+                />
+              </div>
+              <div>
+                <label className="block text-xs text-gray-500 mb-1">
+                  ブラーの強さ：{config.brand.titleGlassBlur ?? 12}
+                </label>
+                <input type="range" min="0" max="40" step="1"
+                  value={config.brand.titleGlassBlur ?? 12}
+                  onChange={(e) => updateConfig('brand.titleGlassBlur', +e.target.value)}
+                  className="w-full accent-amber"
+                />
+              </div>
+              <div>
+                <label className="block text-xs text-gray-500 mb-1">
+                  上下の余白：{config.brand.titlePaddingY ?? 12}
+                </label>
+                <input type="range" min="0" max="60" step="2"
+                  value={config.brand.titlePaddingY ?? 12}
+                  onChange={(e) => updateConfig('brand.titlePaddingY', +e.target.value)}
+                  className="w-full accent-amber"
+                />
+              </div>
+            </div>
+          )}
         </div>
       )}
 
