@@ -107,7 +107,7 @@ const Header = ({ lastUpdate, loading, onRefresh }) => {
   const posClass = TITLE_POS[titlePos] || TITLE_POS.center
   const isCenter = titlePos === 'center'
   const heightDesktop = config.brand.headerHeight || '600px'
-  const heightMobile = config.brand.headerHeightMobile || '300px'
+  const heightMobile = config.brand.headerHeightMobile || '400px'
 
   return (
     <>
