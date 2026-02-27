@@ -112,10 +112,7 @@ const HomeView = ({ ranking, goals, events }) => {
         ) : (
           <div className="glass-effect rounded-2xl border border-card-border/20 py-14 text-center">
             <div className="text-[10px] tracking-[0.6em] text-sub-text uppercase mb-5">coming up</div>
-            <p
-              className="text-4xl md:text-6xl font-display font-black tracking-widest text-transparent bg-clip-text"
-              style={{ backgroundImage: 'linear-gradient(to right, var(--color-title-gradient-start, var(--color-primary)), var(--color-title-gradient-mid, var(--color-primary)), var(--color-title-gradient-end, var(--color-highlight)))' }}
-            >
+            <p className="text-4xl md:text-6xl font-display font-black tracking-widest text-primary">
               Stay Tuned
             </p>
             <div className="flex justify-center gap-2 mt-6">
