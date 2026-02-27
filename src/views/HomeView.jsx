@@ -77,11 +77,11 @@ const HomeView = ({ ranking, goals, events }) => {
       </section>
 
       {/* 次回イベント告知 */}
-      {events?.upcoming?.title && (
-        <section className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-4xl font-body mb-4 md:mb-8 text-center text-glow-soft text-primary">
-            Next Event
-          </h2>
+      <section className="max-w-4xl mx-auto">
+        <h2 className="text-2xl md:text-4xl font-body mb-4 md:mb-8 text-center text-glow-soft text-primary">
+          Next Event
+        </h2>
+        {events?.upcoming?.title ? (
           <div className="glass-effect rounded-2xl border border-amber/40 overflow-hidden">
             {events.upcoming.imageUrl && (
               <img
@@ -109,8 +109,23 @@ const HomeView = ({ ranking, goals, events }) => {
               )}
             </div>
           </div>
-        </section>
-      )}
+        ) : (
+          <div className="glass-effect rounded-2xl border border-card-border/20 py-14 text-center">
+            <div className="text-[10px] tracking-[0.6em] text-sub-text uppercase mb-5">coming up</div>
+            <p
+              className="text-4xl md:text-6xl font-display font-black tracking-widest text-transparent bg-clip-text"
+              style={{ backgroundImage: 'linear-gradient(to right, var(--color-ocean-teal), var(--color-light-blue), var(--color-amber))' }}
+            >
+              Stay Tuned
+            </p>
+            <div className="flex justify-center gap-2 mt-6">
+              <span className="block w-8 h-px bg-light-blue/30" />
+              <span className="block w-1.5 h-1.5 rounded-full bg-light-blue/50 -mt-0.5" />
+              <span className="block w-8 h-px bg-light-blue/30" />
+            </div>
+          </div>
+        )}
+      </section>
 
       {/* FAQ */}
       {config.home.faq.enabled !== false && config.home.faq.items.length > 0 && (
