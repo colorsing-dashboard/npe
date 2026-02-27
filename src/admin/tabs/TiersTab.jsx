@@ -122,7 +122,7 @@ const TiersTab = ({ config, updateConfig }) => {
               </div>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
               <label className="flex items-center gap-2 text-xs text-gray-400 cursor-pointer">
                 <input
                   type="checkbox"
@@ -141,32 +141,27 @@ const TiersTab = ({ config, updateConfig }) => {
                 />
                 メンバーシップ枠（特別スタイル）
               </label>
+              <label className="flex items-center gap-2 text-xs text-gray-400 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={tier.useKey || false}
+                  onChange={(e) => updateTier(index, 'useKey', e.target.checked)}
+                  className="accent-gold"
+                />
+                アクセスキーで保護する
+              </label>
             </div>
 
-            {tier.isMembership && (
-              <div className="mt-3 pl-4 border-l-2 border-gold/40 space-y-2">
-                <label className="flex items-center gap-2 text-xs text-gray-400 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={tier.useKey || false}
-                    onChange={(e) => updateTier(index, 'useKey', e.target.checked)}
-                    className="accent-gold"
-                  />
-                  アクセスキーで保護する（キーを知るユーザーのみ閲覧可）
-                </label>
-                {tier.useKey && (
-                  <div>
-                    <label className="block text-xs text-gray-500 mb-1">アクセスキー</label>
-                    <input
-                      type="text"
-                      value={tier.accessKey || ''}
-                      onChange={(e) => updateTier(index, 'accessKey', e.target.value)}
-                      placeholder="任意の文字列"
-                      className="w-full px-3 py-1.5 glass-effect border border-gold/40 rounded-lg text-white text-sm focus:outline-none focus:border-gold"
-                    />
-                    <p className="text-xs text-gray-600 mt-1">※ 現時点では設定のみ。表示制御は別途実装予定。</p>
-                  </div>
-                )}
+            {tier.useKey && (
+              <div className="mt-3">
+                <label className="block text-xs text-gray-500 mb-1">アクセスキー</label>
+                <input
+                  type="text"
+                  value={tier.accessKey || ''}
+                  onChange={(e) => updateTier(index, 'accessKey', e.target.value)}
+                  placeholder="任意の文字列"
+                  className="w-full px-3 py-1.5 glass-effect border border-gold/40 rounded-lg text-white text-sm focus:outline-none focus:border-gold"
+                />
               </div>
             )}
           </div>
