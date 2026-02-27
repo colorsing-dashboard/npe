@@ -106,7 +106,7 @@ const HomeView = ({ ranking, goals, events }) => {
                     <img
                       src={closedImg}
                       alt="CLOSED"
-                      className="w-1/2 md:w-2/5 max-w-xs select-none pointer-events-none"
+                      className="w-2/3 md:w-1/2 max-w-sm select-none pointer-events-none"
                       style={{ filter: 'drop-shadow(0 0 8px rgba(0,0,0,1)) drop-shadow(0 2px 12px rgba(0,0,0,1)) drop-shadow(0 0 30px rgba(0,0,0,0.8))' }}
                     />
                   </div>
