@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { useConfig } from '../context/ConfigContext'
 import { convertDriveUrl } from '../lib/sheets'
 
@@ -109,9 +110,18 @@ const Header = ({ lastUpdate, loading, onRefresh }) => {
   const heightDesktop = config.brand.headerHeight || '600px'
   const heightMobile = config.brand.headerHeightMobile || '400px'
 
+  useEffect(() => {
+    const id = 'header-cs-style'
+    let el = document.getElementById(id)
+    if (!el) {
+      el = document.createElement('style')
+      el.id = id
+      document.head.appendChild(el)
+    }
+    el.textContent = `.header-cs{height:${heightMobile}}@media(min-width:768px){.header-cs{height:${heightDesktop}}}`
+  }, [heightDesktop, heightMobile])
+
   return (
-    <>
-    <style>{`.header-cs{height:${heightMobile}}@media(min-width:768px){.header-cs{height:${heightDesktop}}}`}</style>
     <div
       className="header-cs w-full relative overflow-hidden"
       style={{
@@ -164,7 +174,6 @@ const Header = ({ lastUpdate, loading, onRefresh }) => {
         </button>
       </div>
     </div>
-    </>
   )
 }
 
