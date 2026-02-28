@@ -176,10 +176,10 @@ window.DASHBOARD_CONFIG = {
     "rankingTitle": "Ranking",
     "pointsLabel": "刑期",
     "pointsUnit": "年",
-    "targetsTitle": "WANTED",
+    "targetsTitle": "🔑重罪判定🗡️",
     "targetLabels": [
-      "旬",
-      "月"
+      "🔑条件1",
+      "🔑条件2"
     ],
     "faq": {
       "enabled": true,
