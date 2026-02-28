@@ -5,9 +5,9 @@ window.DASHBOARD_CONFIG = {
   "brand": {
     "name": "吊され版",
     "sidebarTitle": "　color sing",
-    "footerText": "罪を数え感謝を述べよ",
+    "footerText": ".....遊びは計画的にしないと手配者入り.....",
     "footerSubText": "🐧🐾.......🐧🐾.......",
-    "footerNote": ".....遊びは計画的にしないと手配者入り.....",
+    "footerNote": "©️prodused by まぐろふぉん🐟🎧",
     "pageTitle": "吊るし台 - 特典管理",
     "loadingEmoji": "🐧🐾🐾🐾",
     "loadingText": "...手配犯呼び出し中...",
