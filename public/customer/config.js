@@ -154,7 +154,7 @@ window.DASHBOARD_CONFIG = {
       "displayTemplate": "獲得済！",
       "isBoolean": true,
       "useKey": true,
-      "accessKey": "oshitoyaka",
+      "accessKey": "1111",
       "lockedContent": {
         "text": "ペアアイコンになります！月毎に作りますのでよろしく！ツーショは嫌だろ？とるな！"
       }
@@ -180,7 +180,7 @@ window.DASHBOARD_CONFIG = {
       "isBoolean": true,
       "useKey": true,
       "isMembership": true,
-      "accessKey": "penkawa",
+      "accessKey": "2222",
       "lockedContent": {
         "text": "WANTEDアイコン。グッズも考えておりますので、少々正座してお待ちください",
         "imageUrl": "https://drive.google.com/file/d/1DdO6ElcTw8quSR1oUbQ8mABbsfurGhmH/view?usp=drivesdk"
