@@ -170,7 +170,7 @@ window.DASHBOARD_CONFIG = {
       "displayTemplate": "権利: {value}時間分"
     },
     {
-      "key": "wanted",
+      "key": "WANTED",
       "icon": "🐧",
       "columnIndex": 6,
       "displayTemplate": "特典: {value}",
