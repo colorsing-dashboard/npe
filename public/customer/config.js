@@ -154,7 +154,10 @@ window.DASHBOARD_CONFIG = {
       "displayTemplate": "獲得済！",
       "isBoolean": true,
       "useKey": true,
-      "accessKey": "おしとやか"
+      "accessKey": "おしとやか",
+      "lockedContent": {
+        "text": "ペアアイコンになります！月毎に作りますのでよろしく！ツーショは嫌だろ？とるな！"
+      }
     },
     {
       "key": "20k",
@@ -177,7 +180,10 @@ window.DASHBOARD_CONFIG = {
       "isBoolean": true,
       "useKey": true,
       "isMembership": true,
-      "accessKey": "ぺんぎんかわいい"
+      "accessKey": "ぺんぎんかわいい",
+      "lockedContent": {
+        "text": "WANTEDアイコン。グッズも考えておりますので、少々正座してお待ちください"
+      }
     }
   ],
   "home": {
