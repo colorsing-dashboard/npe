@@ -205,11 +205,11 @@ window.DASHBOARD_CONFIG = {
   },
   "ui": {
     "errorTitle": "呼び出してないので確認してください",
-    "errorMessage": "データの読み込みに失敗しました。しばらくしてから再度お試しください。",
+    "errorMessage": "手配書が読み込めません。看守の見回り来てないうちにロードしましょう",
     "retryButton": "再呼び出し中",
     "refreshButton": "罪状判定",
     "lastUpdate": "最終罪状",
-    "iconLoading": "アイコンデータを読み込み中...",
+    "iconLoading": "🔍手配犯検索中🔍....",
     "iconEmpty": "アイコンデータがありません",
     "iconNoImages": "アイコンがありません",
     "userListTitle": "拘留中",
