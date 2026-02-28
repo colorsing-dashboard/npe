@@ -161,7 +161,7 @@ window.DASHBOARD_CONFIG = {
       "key": "WANTED",
       "icon": "🐧",
       "columnIndex": 4,
-      "displayTemplate": "特典: WANTEDアイコン！ゆくゆくは....⁈！",
+      "displayTemplate": "獲得済み！",
       "isBoolean": true,
       "useKey": true,
       "isMembership": true,
