@@ -135,7 +135,7 @@ window.DASHBOARD_CONFIG = {
     {
       "key": "10k",
       "icon": "🎭",
-      "columnIndex": 3,
+      "columnIndex": 2,
       "displayTemplate": "獲得済！",
       "isBoolean": true,
       "useKey": true,
@@ -147,20 +147,20 @@ window.DASHBOARD_CONFIG = {
     {
       "key": "20k",
       "icon": "🎧",
-      "columnIndex": 4,
+      "columnIndex": 3,
       "displayTemplate": "権利: {value}曲分",
       "isBoolean": false
     },
     {
       "key": "30k",
       "icon": "💬",
-      "columnIndex": 5,
+      "columnIndex": 4,
       "displayTemplate": "権利: {value}時間分"
     },
     {
       "key": "WANTED",
       "icon": "🐧",
-      "columnIndex": 6,
+      "columnIndex": 5,
       "displayTemplate": "特典: {value}",
       "isBoolean": true,
       "useKey": true,
