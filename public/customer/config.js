@@ -133,21 +133,6 @@ window.DASHBOARD_CONFIG = {
   ],
   "benefitTiers": [
     {
-      "key": "3k",
-      "icon": "🖼️",
-      "columnIndex": 1,
-      "displayTemplate": "獲得済！",
-      "isMembership": false,
-      "isBoolean": true
-    },
-    {
-      "key": "5k",
-      "icon": "🖼️",
-      "columnIndex": 2,
-      "displayTemplate": "獲得済！",
-      "isBoolean": true
-    },
-    {
       "key": "10k",
       "icon": "🎭",
       "columnIndex": 3,
