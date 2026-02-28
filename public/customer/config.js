@@ -182,7 +182,8 @@ window.DASHBOARD_CONFIG = {
       "isMembership": true,
       "accessKey": "penkawa",
       "lockedContent": {
-        "text": "WANTEDアイコン。グッズも考えておりますので、少々正座してお待ちください"
+        "text": "WANTEDアイコン。グッズも考えておりますので、少々正座してお待ちください",
+        "imageUrl": "https://drive.google.com/file/d/1DdO6ElcTw8quSR1oUbQ8mABbsfurGhmH/view?usp=drivesdk"
       }
     }
   ],
