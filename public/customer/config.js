@@ -111,7 +111,7 @@ window.DASHBOARD_CONFIG = {
     },
     {
       "id": "rights",
-      "label": "罪人",
+      "label": "罪人掲示板",
       "icon": "👥",
       "enabled": true,
       "title": "罪人"
@@ -119,14 +119,14 @@ window.DASHBOARD_CONFIG = {
     {
       "id": "icons",
       "label": "手配写真",
-      "icon": "🖼️",
+      "icon": "🃏",
       "enabled": true,
       "title": "手配写真"
     },
     {
       "id": "events",
       "label": "イベント",
-      "icon": "📖",
+      "icon": "📝",
       "enabled": true,
       "title": "イベント"
     }
@@ -218,7 +218,7 @@ window.DASHBOARD_CONFIG = {
     "particleDirection": "up",
     "particleColor": "#cbf0ff",
     "particleSize": 2,
-    "particleOpacity": 2
+    "particleOpacity": 2.5
   },
   "deploy": {
     "owner": "colorsing-dashboard",
