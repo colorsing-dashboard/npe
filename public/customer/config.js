@@ -3,11 +3,11 @@
 
 window.DASHBOARD_CONFIG = {
   "brand": {
-    "name": "吊し台",
+    "name": "吊され版",
     "sidebarTitle": "　color sing",
-    "footerText": "罪を数えよ",
+    "footerText": "罪を数え感謝を述べよ",
     "footerSubText": "🐧🐾.......🐧🐾.......",
-    "footerNote": ".....遊びは計画的にしないと手配入り.....",
+    "footerNote": ".....遊びは計画的にしないと手配者入り.....",
     "pageTitle": "吊るし台 - 特典管理",
     "loadingEmoji": "🐧🐾🐾🐾",
     "loadingText": "...手配犯呼び出し中...",
@@ -19,7 +19,7 @@ window.DASHBOARD_CONFIG = {
     "titleGlow": true,
     "titlePosition": "center",
     "titleSize": "large",
-    "titleTextFill": "default",
+    "titleTextFill": "gradient",
     "titleGlassBg": 0.05,
     "titleGlassBlur": 7,
     "titlePaddingY": 6,
@@ -68,8 +68,8 @@ window.DASHBOARD_CONFIG = {
   "fonts": {
     "display": "'Noto Serif JP', serif",
     "displayUrl": "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&display=swap",
-    "body": "'Caveat', cursive",
-    "bodyUrl": "https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap",
+    "body": "'Stick', sans-serif",
+    "bodyUrl": "https://fonts.googleapis.com/css2?family=Stick:wght@400&display=swap",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
   },
   "images": {
@@ -154,7 +154,7 @@ window.DASHBOARD_CONFIG = {
       "displayTemplate": "獲得済！",
       "isBoolean": true,
       "useKey": true,
-      "accessKey": "お淑やか"
+      "accessKey": "おしとやか"
     },
     {
       "key": "20k",
@@ -168,6 +168,16 @@ window.DASHBOARD_CONFIG = {
       "icon": "💬",
       "columnIndex": 5,
       "displayTemplate": "権利: {value}時間分"
+    },
+    {
+      "key": "wanted",
+      "icon": "🐧",
+      "columnIndex": 6,
+      "displayTemplate": "特典: {value}",
+      "isBoolean": true,
+      "useKey": true,
+      "isMembership": true,
+      "accessKey": "ぺんぎんかわいい"
     }
   ],
   "home": {
@@ -207,7 +217,7 @@ window.DASHBOARD_CONFIG = {
     "iconEmpty": "アイコンデータがありません",
     "iconNoImages": "アイコンがありません",
     "userListTitle": "拘留中",
-    "userIconTitle": "{user} ",
+    "userIconTitle": "ならず者No.{user} ",
     "searchPlaceholder": "🔍 犯人を探す🔍",
     "specialRightLabel": "極",
     "imageError": "画像エラー"
