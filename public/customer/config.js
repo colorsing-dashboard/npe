@@ -3,7 +3,7 @@
 
 window.DASHBOARD_CONFIG = {
   "brand": {
-    "name": "吊し台(推し特典ぺ)",
+    "name": "吊し台",
     "sidebarTitle": "　color sing",
     "footerText": "罪を数えよ",
     "footerSubText": "🐧🐾.......🐧🐾.......",
@@ -19,11 +19,11 @@ window.DASHBOARD_CONFIG = {
     "titleGlow": true,
     "titlePosition": "center",
     "titleSize": "large",
-    "titleTextFill": "gradient",
+    "titleTextFill": "default",
     "titleGlassBg": 0.05,
     "titleGlassBlur": 7,
     "titlePaddingY": 6,
-    "headerOverlayOpacity": 0.3,
+    "headerOverlayOpacity": 0.15,
     "headerImageFit": "contain",
     "headerHeight": "",
     "headerHeightMobile": "",
@@ -68,8 +68,8 @@ window.DASHBOARD_CONFIG = {
   "fonts": {
     "display": "'Noto Serif JP', serif",
     "displayUrl": "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&display=swap",
-    "body": "'Stick', sans-serif",
-    "bodyUrl": "https://fonts.googleapis.com/css2?family=Stick:wght@400&display=swap",
+    "body": "'Caveat', cursive",
+    "bodyUrl": "https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
   },
   "images": {
