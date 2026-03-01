@@ -38,7 +38,8 @@ window.DASHBOARD_CONFIG = {
     "lightBlue": "#a7c6ff",
     "amber": "#ffc777",
     "accent": "#5c0701",
-    "gold": "#ffd700"
+    "gold": "#ffd700",
+    "brightness": "dark"
   },
   "colorOverrides": {
     "headerGradientStart": "#52d6fc",
