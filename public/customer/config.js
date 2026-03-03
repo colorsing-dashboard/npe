@@ -20,10 +20,10 @@ window.DASHBOARD_CONFIG = {
     "titlePosition": "center",
     "titleSize": "large",
     "titleTextFill": "gradient",
-    "titleGlassBg": 0.05,
-    "titleGlassBlur": 7,
-    "titlePaddingY": 6,
-    "headerOverlayOpacity": 0.15,
+    "titleGlassBg": 0.1,
+    "titleGlassBlur": 4,
+    "titlePaddingY": 14,
+    "headerOverlayOpacity": 0.1,
     "headerImageFit": "contain",
     "headerHeight": "",
     "headerHeightMobile": "",
@@ -225,7 +225,7 @@ window.DASHBOARD_CONFIG = {
     "particleDirection": "up",
     "particleColor": "#cbf0ff",
     "particleSize": 2,
-    "particleOpacity": 2.5
+    "particleOpacity": 3
   },
   "deploy": {
     "owner": "colorsing-dashboard",
