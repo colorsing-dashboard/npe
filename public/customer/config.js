@@ -67,8 +67,8 @@ window.DASHBOARD_CONFIG = {
     "glassBgOpacity": 0.19999999999999996
   },
   "fonts": {
-    "display": "'Noto Serif JP', serif",
-    "displayUrl": "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&display=swap",
+    "display": "'Stick', sans-serif",
+    "displayUrl": "https://fonts.googleapis.com/css2?family=Stick:wght@400&display=swap",
     "body": "'Stick', sans-serif",
     "bodyUrl": "https://fonts.googleapis.com/css2?family=Stick:wght@400&display=swap",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
@@ -225,7 +225,7 @@ window.DASHBOARD_CONFIG = {
     "particleDirection": "up",
     "particleColor": "#cbf0ff",
     "particleSize": 2,
-    "particleOpacity": 3
+    "particleOpacity": 2
   },
   "deploy": {
     "owner": "colorsing-dashboard",
