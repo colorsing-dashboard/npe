@@ -182,7 +182,7 @@ window.DASHBOARD_CONFIG = {
       "lockedContent": {
         "text": "coming soon..."
       },
-      "accessKey": "おしとやか"
+      "accessKey": "oshitoyaka"
     }
   ],
   "home": {
