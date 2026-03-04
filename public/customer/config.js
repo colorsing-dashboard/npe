@@ -218,7 +218,7 @@ window.DASHBOARD_CONFIG = {
     "title": "案内板"
   },
   "ui": {
-    "errorTitle": "呼び出してないので確認してください",
+    "errorTitle": "指名手配呼び出してないので確認してください",
     "errorMessage": "手配書が読み込めません。看守の見回り来てないうちにロードしましょう",
     "retryButton": "再呼び出し中",
     "refreshButton": "罪状判定",
