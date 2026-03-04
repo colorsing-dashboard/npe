@@ -171,6 +171,18 @@ window.DASHBOARD_CONFIG = {
         "text": "WANTEDアイコン。グッズも考えておりますので、少々正座してお待ちください",
         "imageUrl": "https://drive.google.com/file/d/1DdO6ElcTw8quSR1oUbQ8mABbsfurGhmH/view?usp=drivesdk"
       }
+    },
+    {
+      "key": "coming soon",
+      "icon": "🔔",
+      "columnIndex": 5,
+      "displayTemplate": "特典: secret",
+      "useKey": true,
+      "isMembership": true,
+      "lockedContent": {
+        "text": "coming soon..."
+      },
+      "accessKey": "おしとやか"
     }
   ],
   "home": {
