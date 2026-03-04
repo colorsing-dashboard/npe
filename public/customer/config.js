@@ -180,7 +180,8 @@ window.DASHBOARD_CONFIG = {
       "useKey": true,
       "isMembership": true,
       "lockedContent": {
-        "text": "coming soon..."
+        "text": "coming soon...",
+        "imageUrl": "https://drive.google.com/file/d/1TxV7UZeCbnxBFT1rt4zJ5R0G9RD7G_9E/view?usp=drivesdk"
       },
       "accessKey": "oshitoyaka"
     }
