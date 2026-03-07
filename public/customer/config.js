@@ -190,12 +190,13 @@ window.DASHBOARD_CONFIG = {
       "icon": "📝",
       "columnIndex": 6,
       "displayTemplate": "特典: secret",
-      "useKey": true,
+      "useKey": false,
       "lockedContent": {
         "imageUrl": "https://drive.google.com/file/d/1JA0-CLptJ-Xo4J-3mF9EkvbNKLs9OCBK/view?usp=drivesdk",
         "text": "イベント来てくれてありがとう！イベント配布時のホムペアイコンの設定方法になります。わからないところは聞いてね！"
       },
-      "accessKey": "777"
+      "accessKey": "777",
+      "isMembership": true
     }
   ],
   "home": {
