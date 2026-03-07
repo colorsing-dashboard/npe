@@ -195,7 +195,7 @@ window.DASHBOARD_CONFIG = {
         "imageUrl": "https://drive.google.com/file/d/1JA0-CLptJ-Xo4J-3mF9EkvbNKLs9OCBK/view?usp=drivesdk",
         "text": "イベント来てくれてありがとう！イベント配布時のホムペアイコンの設定方法になります。わからないところは聞いてね！"
       },
-      "accessKey": "oshitoyaka"
+      "accessKey": "tori"
     }
   ],
   "home": {
