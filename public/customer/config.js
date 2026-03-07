@@ -184,19 +184,6 @@ window.DASHBOARD_CONFIG = {
         "imageUrl": "https://drive.google.com/file/d/1TxV7UZeCbnxBFT1rt4zJ5R0G9RD7G_9E/view?usp=drivesdk"
       },
       "accessKey": "oshitoyaka"
-    },
-    {
-      "key": "書",
-      "icon": "📝",
-      "columnIndex": 6,
-      "displayTemplate": "特典: secret",
-      "useKey": false,
-      "lockedContent": {
-        "imageUrl": "https://drive.google.com/file/d/1JA0-CLptJ-Xo4J-3mF9EkvbNKLs9OCBK/view?usp=drivesdk",
-        "text": "イベント来てくれてありがとう！イベント配布時のホムペアイコンの設定方法になります。わからないところは聞いてね！"
-      },
-      "accessKey": "777",
-      "isMembership": true
     }
   ],
   "home": {
