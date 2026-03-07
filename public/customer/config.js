@@ -44,9 +44,9 @@ window.DASHBOARD_CONFIG = {
   "colorOverrides": {
     "headerGradientStart": "#52d6fc",
     "headerGradientEnd": "#016e8f",
-    "titleGradientStart": "#707070",
-    "titleGradientMid": "#008cb4",
-    "titleGradientEnd": "#6c0023",
+    "titleGradientStart": "#6c0023",
+    "titleGradientMid": "#74a7ff",
+    "titleGradientEnd": "#004d65",
     "cardBorder": "",
     "cardBorderHover": "",
     "primaryText": "#ffffff",
