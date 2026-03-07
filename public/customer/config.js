@@ -180,7 +180,7 @@ window.DASHBOARD_CONFIG = {
       "useKey": true,
       "isMembership": true,
       "lockedContent": {
-        "text": "このホムペ専用アイコン！他のアプリに使用も可！あなたのスマホ監視員のペンギンです🐧🔍",
+        "text": "このホムペ専用アイコン！他のアプリに使用も可！あなたのスマホ監視員のペンギンです🐧🔍設定方法はイベントタブの設定画面より！",
         "imageUrl": "https://drive.google.com/file/d/1TxV7UZeCbnxBFT1rt4zJ5R0G9RD7G_9E/view?usp=drivesdk"
       },
       "accessKey": "oshitoyaka"
