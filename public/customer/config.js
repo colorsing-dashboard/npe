@@ -173,7 +173,7 @@ window.DASHBOARD_CONFIG = {
       }
     },
     {
-      "key": "イベント参加特典",
+      "key": "ゲーム参加特典",
       "icon": "🔔",
       "columnIndex": 5,
       "displayTemplate": "特典: 特典内容は枠内で",
