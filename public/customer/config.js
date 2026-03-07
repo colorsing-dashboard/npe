@@ -173,10 +173,10 @@ window.DASHBOARD_CONFIG = {
       }
     },
     {
-      "key": "coming soon",
+      "key": "イベント参加特典",
       "icon": "🔔",
       "columnIndex": 5,
-      "displayTemplate": "特典: secret",
+      "displayTemplate": "特典: 特典内容は枠内で",
       "useKey": true,
       "isMembership": true,
       "lockedContent": {
