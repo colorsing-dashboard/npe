@@ -137,9 +137,9 @@ window.DASHBOARD_CONFIG = {
       "key": "10k",
       "icon": "🎭",
       "columnIndex": 1,
-      "displayTemplate": "獲得済！",
+      "displayTemplate": "🔫捕獲済👮",
       "isBoolean": true,
-      "useKey": true,
+      "useKey": false,
       "accessKey": "1111",
       "lockedContent": {
         "text": "ペアアイコンになります！月毎に作りますのでよろしく！ツーショは嫌だろ？とるな！"
@@ -162,7 +162,7 @@ window.DASHBOARD_CONFIG = {
       "key": "WANTED",
       "icon": "🐧",
       "columnIndex": 4,
-      "displayTemplate": "獲得済み！",
+      "displayTemplate": "📝指名手配済👮",
       "isBoolean": true,
       "useKey": true,
       "isMembership": true,
@@ -170,31 +170,6 @@ window.DASHBOARD_CONFIG = {
       "lockedContent": {
         "text": "WANTEDアイコン。グッズも考えておりますので、少々正座してお待ちください",
         "imageUrl": "https://drive.google.com/file/d/1DdO6ElcTw8quSR1oUbQ8mABbsfurGhmH/view?usp=drivesdk"
-      }
-    },
-    {
-      "key": "ゲーム参加特典",
-      "icon": "🔔",
-      "columnIndex": 5,
-      "displayTemplate": "特典: 特典内容は枠内で",
-      "useKey": true,
-      "isMembership": true,
-      "lockedContent": {
-        "text": "このホムペ専用アイコン！他のアプリに使用も可！あなたのスマホ監視員のペンギンです🐧🔍設定方法はイベントタブの設定画面より！",
-        "imageUrl": "https://drive.google.com/file/d/1IXSZ0i0MdUI8QJLC0ifjVm4Z-IbVNADF/view?usp=drivesdk"
-      },
-      "accessKey": "oshitoyaka"
-    },
-    {
-      "key": "設定方法",
-      "icon": "📝",
-      "columnIndex": 6,
-      "displayTemplate": "特典: {value}",
-      "isMembership": true,
-      "useKey": true,
-      "lockedContent": {
-        "imageUrl": "https://drive.google.com/file/d/1JA0-CLptJ-Xo4J-3mF9EkvbNKLs9OCBK/view?usp=drivesdk",
-        "text": "こちらが設定方法になります！"
       }
     }
   ],
