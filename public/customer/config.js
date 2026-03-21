@@ -171,6 +171,19 @@ window.DASHBOARD_CONFIG = {
         "text": "WANTEDアイコン。グッズも考えておりますので、少々正座してお待ちください",
         "imageUrl": "https://drive.google.com/file/d/1DdO6ElcTw8quSR1oUbQ8mABbsfurGhmH/view?usp=drivesdk"
       }
+    },
+    {
+      "key": "特典説明",
+      "icon": "🏠",
+      "columnIndex": 5,
+      "displayTemplate": "パスワード:1111   で見るのじゃ",
+      "isMembership": true,
+      "useKey": true,
+      "accessKey": "1111",
+      "lockedContent": {
+        "imageUrl": "https://drive.google.com/file/d/1JA0-CLptJ-Xo4J-3mF9EkvbNKLs9OCBK/view?usp=drivesdk",
+        "text": "イベントのアプリアイコンの設定方法。iPhoneのものになります。"
+      }
     }
   ],
   "home": {
@@ -184,6 +197,7 @@ window.DASHBOARD_CONFIG = {
     ],
     "faq": {
       "enabled": true,
+      "accordion": true,
       "title": "📝 FAQ・注意事項",
       "items": [
         {
