@@ -105,21 +105,21 @@ window.DASHBOARD_CONFIG = {
     },
     {
       "id": "menu",
-      "label": "刑罰",
+      "label": "🗡️刑罰🚨(特典詳細)",
       "icon": "🎭",
       "enabled": true,
       "title": "刑罰"
     },
     {
       "id": "rights",
-      "label": "罪人掲示板",
+      "label": "罪人掲示板(特典獲得一覧)",
       "icon": "👥",
       "enabled": true,
       "title": "罪人"
     },
     {
       "id": "icons",
-      "label": "手配写真",
+      "label": "手配写真(枠内アイコン)",
       "icon": "🃏",
       "enabled": true,
       "title": "手配写真"
