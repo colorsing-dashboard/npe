@@ -156,7 +156,7 @@ window.DASHBOARD_CONFIG = {
       "key": "30k",
       "icon": "💬",
       "columnIndex": 3,
-      "displayTemplate": "権利: {value}時間分"
+      "displayTemplate": "権利: {value}分の弁明時間"
     },
     {
       "key": "WANTED",
