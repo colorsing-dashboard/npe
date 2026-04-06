@@ -20,8 +20,8 @@ window.DASHBOARD_CONFIG = {
     "titlePosition": "center",
     "titleSize": "large",
     "titleTextFill": "gradient",
-    "titleGlassBg": 0.6,
-    "titleGlassBlur": 11,
+    "titleGlassBg": 0.35,
+    "titleGlassBlur": 5,
     "titlePaddingY": 6,
     "headerOverlayOpacity": 0.2,
     "headerImageFit": "contain",
@@ -31,10 +31,10 @@ window.DASHBOARD_CONFIG = {
     "headerImageH": 0,
     "headerImageWMobile": 0,
     "headerImageHMobile": 0,
-    "glassTint": 0.03,
-    "glassReflection": 0.35,
-    "glassSpecular": 0.65,
-    "glassEdge": 25
+    "glassTint": 0.07,
+    "glassReflection": 0.4,
+    "glassSpecular": 0.85,
+    "glassEdge": 10
   },
   "colors": {
     "deepBlue": "#74a7ff",
