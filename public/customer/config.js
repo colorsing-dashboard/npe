@@ -30,7 +30,11 @@ window.DASHBOARD_CONFIG = {
     "headerImageW": 0,
     "headerImageH": 0,
     "headerImageWMobile": 0,
-    "headerImageHMobile": 0
+    "headerImageHMobile": 0,
+    "glassTint": 0.08,
+    "glassReflection": 0.75,
+    "glassSpecular": 0.95,
+    "glassEdge": 60
   },
   "colors": {
     "deepBlue": "#74a7ff",
@@ -63,6 +67,14 @@ window.DASHBOARD_CONFIG = {
     "popupOverlayOpacity": 0.35,
     "menuCardLabelColor": "",
     "menuCardLabelOpacity": "",
+    "tierCardBgColor": "",
+    "tierCardBgOpacity": "",
+    "menuCardBgColor": "",
+    "menuCardBgOpacity": "",
+    "sidebarBgColor": "",
+    "sidebarBgOpacity": "",
+    "bottomNavBgColor": "",
+    "bottomNavBgOpacity": "",
     "glassBgColor": "#ffffff",
     "glassBgOpacity": 0.19999999999999996
   },
