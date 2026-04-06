@@ -21,8 +21,8 @@ window.DASHBOARD_CONFIG = {
     "titleSize": "large",
     "titleTextFill": "gradient",
     "titleGlassBg": 0.6,
-    "titleGlassBlur": 23,
-    "titlePaddingY": 42,
+    "titleGlassBlur": 11,
+    "titlePaddingY": 6,
     "headerOverlayOpacity": 0.2,
     "headerImageFit": "contain",
     "headerHeight": "",
@@ -31,10 +31,10 @@ window.DASHBOARD_CONFIG = {
     "headerImageH": 0,
     "headerImageWMobile": 0,
     "headerImageHMobile": 0,
-    "glassTint": 0.08,
-    "glassReflection": 0.75,
-    "glassSpecular": 0.95,
-    "glassEdge": 60
+    "glassTint": 0.03,
+    "glassReflection": 0.35,
+    "glassSpecular": 0.65,
+    "glassEdge": 25
   },
   "colors": {
     "deepBlue": "#74a7ff",
@@ -48,8 +48,8 @@ window.DASHBOARD_CONFIG = {
   "colorOverrides": {
     "headerGradientStart": "#52d6fc",
     "headerGradientEnd": "#016e8f",
-    "titleGradientStart": "#74a7ff",
-    "titleGradientMid": "#5c5c5c",
+    "titleGradientStart": "#5c5c5c",
+    "titleGradientMid": "#ffab01",
     "titleGradientEnd": "#6c0023",
     "cardBorder": "",
     "cardBorderHover": "",
