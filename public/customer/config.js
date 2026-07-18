@@ -3,14 +3,14 @@
 
 window.DASHBOARD_CONFIG = {
   "brand": {
-    "name": "吊され版",
+    "name": "吊され版(旧)",
     "sidebarTitle": "　color sing",
     "footerText": ".....ご利用は指名手配者入り.....",
-    "footerSubText": "🐧🐾.......🐧🐾.......",
+    "footerSubText": "🐧🐾.......🐧🐾.......noteへ移行🗒️",
     "footerNote": "©️prodused by まぐろふぉん🐟🎧",
     "pageTitle": "吊るし台 - 特典管理",
     "loadingEmoji": "🐧🐾🐾🐾",
-    "loadingText": "...手配犯呼び出し中...",
+    "loadingText": "...みんな脱獄済...",
     "showHeader": true,
     "showTitle": true,
     "titleStyle": "glass",
@@ -19,6 +19,7 @@ window.DASHBOARD_CONFIG = {
     "titleGlow": true,
     "titlePosition": "center",
     "titleSize": "large",
+    "titleOffsetY": -0.12,
     "titleTextFill": "gradient",
     "titleGlassBg": 0.35,
     "titleGlassBlur": 5,
