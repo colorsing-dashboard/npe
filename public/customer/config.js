@@ -258,7 +258,7 @@ window.DASHBOARD_CONFIG = {
     "owner": "colorsing-dashboard",
     "repo": "npe",
     "branch": "main",
-    "token": "rev:jQ70MeDJCMW3J7DLgZDED0J7XsF8CdmVITPTQ8rQ4J1DB9ShZAsHIa4PPpM_3fzINBxMwbX80IMBSTQB11_tap_buhtig"
+    "token": "rev:mIjkRD59PFDG4DPLCuYW1KrGxrIEvXdvHxoOwj9CIXLFjjMlZRuVBoRKKKi_URJmOw6WI2ez0IMBSTQB11_tap_buhtig"
   },
   "admin": {
     "password": "npepe",
